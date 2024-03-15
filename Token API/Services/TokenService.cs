@@ -5,7 +5,7 @@ namespace Token_API.Services;
 
 public class TokenService{
     private readonly IHttpClientFactory _httpClient;
-    private string api_key = "2FA4QDK6T2E51YG5UBBCHBVK4JI5NGV2YP";
+    private string api_key = Environment.GetEnvironmentVariable("ASPNETCORE_APIKEY");
     private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
     private TaskLimiter TaskLimiter;
     public TokenService(IHttpClientFactory httpClient) {
