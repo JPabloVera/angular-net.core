@@ -1,0 +1,10 @@
+<div class="input-group mb-3">
+  <span class="input-group-text medium-font" id="basic-addon1">{{title}}</span>
+  <input class="form-control shadow-none"
+         [placeholder]=placeholder
+         [attr.aria-label]=placeholder
+         [value]="inputValue"
+         (input)="onInputChange($event)"
+         type="{{ type }}"
+         >
+</div>

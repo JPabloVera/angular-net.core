@@ -1,0 +1,15 @@
+.medium-font {
+  font-size: clamp(13px,1.57vw,22px);
+}
+
+.small-large-font {
+  font-size: clamp(10.4px,1.3vw,18px);
+}
+
+.large-font {
+  font-size: clamp(14px,1.75vw,24.5px);
+}
+
+.small-font {
+  font-size: clamp(10px,1.25vw,17.5px);
+}

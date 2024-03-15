@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <div class="container">
+    <h1 class="large-font" style="margin-bottom: 40px">{{title}}</h1>
+    <app-input-field [title]="input_title_1"
+                     [placeholder]="input_placeholder_1"
+                     (inputValueChange)="onEmailChange($event)"
+                     class="full-width"
+    />
+    <app-input-field [title]="input_title_2"
+                     [placeholder]="input_placeholder_2"
+                     (inputValueChange)="onPasswordChange($event)"
+                     type='password'
+                     class="full-width"
+    />
+    <button
+      (click)="handleSubmit()"
+      type="button"
+      class="btn full-width medium-font"
+      [ngClass]="{ 'btn-secondary': email.length < 3 || password.length < 3, 'btn-primary': email.length >= 3 && password.length >= 3 }"
+      [disabled]="email.length < 3 || password.length < 3"
+    >
+      Register
+    </button>
+  </div>
+</div>
