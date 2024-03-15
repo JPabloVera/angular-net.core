@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db273381-cb33-4b01-81da-3aac776a3866" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Controllers/TokenController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Dtos/LoginUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Dtos/RegisterUserDTo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Dtos/TokenDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Helpers/TaskLimiter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Helpers/TokenHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Helpers/TokenMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Helpers/UserMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Models/HTTPResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Models/Token.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Models/UserResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Repositories/Context.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Services/HashingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Services/JWTService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Services/TokenService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/Token API.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Token API/nlog.config" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2dhu9vJgzEPjW1bhZiuFmUzdikN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db273381-cb33-4b01-81da-3aac776a3866" name="Changes" comment="" />
+      <created>1710472482515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710472482515</updated>
+      <workItem from="1710472483882" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
